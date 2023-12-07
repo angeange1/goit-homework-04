@@ -96,12 +96,12 @@ ol {
   color: #404bbf;
 }
 
-.menu-item:first-child {
+.menu-item:first-child .menu-link {
   position: relative;
   color: #404bbf;
 }
 
-.menu-item:first-child::after {
+.menu-link::after {
   content: "";
   position: absolute;
   display: block;
@@ -110,7 +110,7 @@ ol {
   border-radius: 2px;
   background-color: #404bbf;
   left: 0;
-  bottom: -24px;
+  bottom: -1px;
 }
 
 .contacts-items-wrapper {
